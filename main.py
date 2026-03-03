@@ -4,7 +4,7 @@
 # Coder:khan daniya rehman
 # Date:03/03/2026
 
-print("--- Pattern Printer ---\n")
+print("--- Pattern Printer ---/n")
 
 
 # Write your code here 
@@ -16,6 +16,7 @@ try:
 
 except ValueError:
     print("Invalid input! Please enter integer only.")
+
 
 
 
