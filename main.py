@@ -8,9 +8,9 @@ print("--- Pattern Printer ---\n")
 
 
 # Write your code here
-rows = int(input("Enter Rows: "))
-
+# Outer loop for rows
 for i in range(1, rows + 1):
+    # Prints '*' character 'i' times followed by a newline by default
     print("*" * i)
 
 
