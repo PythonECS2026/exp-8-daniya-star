@@ -8,10 +8,11 @@ print("--- Pattern Printer ---\n")
 
 
 # Write your code here
-# Outer loop for rows
-for i in range(1, rows + 1):
-    # Prints '*' character 'i' times followed by a newline by default
-    print("*" * i)
+n = int(input())
+for i in range(1, n + 1):
+    for j in range(i):
+        print("*", end="")
+    print()
 
 
 
