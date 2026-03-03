@@ -8,7 +8,13 @@ print("--- Pattern Printer ---\n")
 
 
 # Write your code here
-n=int(input("enter rows:"))
-for i in range(1,n+1):
-    print("*"*i)
+# Triangle Pattern Program
+
+rows = int(input("Enter Rows: "))
+
+for i in range(1, rows + 1):
+    for j in range(i):
+        print("*", end=" ")
+    print()
+
 
