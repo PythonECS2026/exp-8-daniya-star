@@ -6,13 +6,11 @@
 
 print("--- Pattern Printer ---\n")
 
-# Write your code here 
 
-n = int(input())
-for i in range(1, n + 1):
-    for j in range(i):
-        print("*", end="")
-    print()
+# Write your code here 
+rows=int(input("Enter Rows: "))
+for i in range(1,rows+1):
+    print("*"*i)
 
 
 
